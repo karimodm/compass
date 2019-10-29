@@ -19,4 +19,3 @@ docker run -t --net host --rm -v $scriptdir/db:/iri/data -v $scriptdir/snapshot.
        --milestone-keys $depth \
        --snapshot /snapshot.txt \
        --max-depth 1000 $@
-
